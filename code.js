@@ -8,8 +8,6 @@ var cy = cytoscape({
   style: cytoscape.stylesheet()
     .selector('node')
       .css({
-        'height': 120,
-        'width': 120,
 		'shape': 'rectangle',
 		'background-color': 'data(faveColor)',
         'content': 'data(name)',
