@@ -32,8 +32,8 @@ var cy = cytoscape({
         'width': 7,
 		'font-size': '10px',
         'target-arrow-shape': 'triangle',
-        'line-color': '#86B342',
-        'target-arrow-color': '#86B342',
+        'line-color': '#D3D3D3',
+        'target-arrow-color': '#D3D3D3',
 		'content': 'data(label)',
 		'edge-text-rotation': 'autorotate'
       }),
