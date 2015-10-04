@@ -28,11 +28,12 @@ var cy = cytoscape({
       })
     .selector('edge')
       .css({
-        'width': 8,
+        'width': 5,
         'target-arrow-shape': 'triangle',
         'line-color': '#86B342',
         'target-arrow-color': '#86B342',
-		'content': 'data(label)'
+		'content': 'data(label)',
+		'text-background-color': '#f7f7f7'
       }),
   
   elements: {
