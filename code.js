@@ -8,13 +8,11 @@ var cy = cytoscape({
   style: cytoscape.stylesheet()
     .selector('node')
       .css({
-        'height': 80,
-        'width': 80,
-        'background-color': 'black',
-        'background-fit': 'cover',
-        'border-color': '#000',
-        'border-width': 3,
-        'border-opacity': 0.5
+        'content': 'data(name)',
+        'text-valign': 'center',
+        'color': 'white',
+        'text-outline-width': 2,
+        'text-outline-color': '#888'
       })
     .selector('.eating')
       .css({
