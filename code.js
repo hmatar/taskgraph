@@ -39,8 +39,8 @@ var cy = cytoscape({
   elements: {
     nodes: [
       { data: { id: 'InitialTask_i1', faveColor: '#ffaaaa', name: 'InitialTask_i1' } },
-      { data: { id: 'InitialTask_i2',faveColor: '#ffaaaa', name: 'InitialTask_i2' } },
-      { data: { id: 'InitialTask_i3',faveColor: '#ffaaaa', name: 'InitialTask_i3' } },
+      { data: { id: 'InitialTask_i2', faveColor: '#ffaaaa', name: 'InitialTask_i2' } },
+      { data: { id: 'InitialTask_i3', faveColor: '#ffaaaa', name: 'InitialTask_i3' } },
       { data: { id: 'InitialTask_i4', faveColor: '#ffaaaa', name: 'InitialTask_i4' } },
       { data: { id: 'lu0_0_0_i1', faveColor: '#EDA1ED', name: 'lu0_0_0_i1' } },
       { data: { id: 'fwd_0_1_i1', faveColor: '#61bffc', name: 'fwd_0_1_i1' } },
@@ -59,7 +59,7 @@ var cy = cytoscape({
       { data: { id: 'lu0_2_2_i3', faveColor: '#EDA1ED', name: 'lu0_2_2_i3' } }
     ],
     edges: [
-      { data: { source: 'Init-ialTask_i4', target: 'lu0_0_0_i1', label: 'bmod_0xa24a60 : 0' } },
+      { data: { source: 'InitialTask_i4', target: 'lu0_0_0_i1', label: 'bmod_0xa24a60 : 0' } },
       { data: { source: 'lu0_0_0_i1', target: 'fwd_0_1_i1', label: 'lu_0xa249e0 : 0' } },
 	  { data: { source: 'InitialTask_i2', target: 'fwd_0_1_i1', label: 'bmod_0xa24a64 : 1' } },
 	  { data: { source: 'lu0_0_0_i1', target: 'bdiv_2_0_i1', label: 'lu_0xa249e0 : 0' } },
