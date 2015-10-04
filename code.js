@@ -97,12 +97,7 @@ var cy = cytoscape({
 }); // cy init
   
 cy.on('tap', 'node', function(){
-  var nodes = this;
-  var tapped = nodes;
-  var food = [];
-  
-  nodes.addClass('eater');
-  
+
 
 }); // on tap
 
