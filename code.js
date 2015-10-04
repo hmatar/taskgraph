@@ -41,7 +41,7 @@ var cy = cytoscape({
       { data: { id: 'InitialTask_i1', faveColor: '#ffaaaa', name: 'InitialTask_i1' } },
       { data: { id: 'InitialTask_i2',faveColor: '#ffaaaa', name: 'InitialTask_i2' } },
       { data: { id: 'InitialTask_i3',faveColor: '#ffaaaa', name: 'InitialTask_i3' } },
-      { data: { id: 'InitialTask_i4',faveColor: '#ffaaaa', name: 'InitialTask_i4' } },
+      { data: { id: 'InitialTask_i4', faveColor: '#ffaaaa', name: 'InitialTask_i4' } },
       { data: { id: 'lu0_0_0_i1', faveColor: '#EDA1ED', name: 'lu0_0_0_i1' } },
       { data: { id: 'fwd_0_1_i1', faveColor: '#61bffc', name: 'fwd_0_1_i1' } },
       { data: { id: 'bdiv_2_0_i1', faveColor: '#F5A45D',name: 'bdiv_2_0_i1' } },
