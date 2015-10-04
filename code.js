@@ -87,7 +87,7 @@ var cy = cytoscape({
   },
   
   layout: {
-    name: 'breadthfirst',
+    name: 'dagre',
 	spacingFactor: 1.75,
 	directed: true,
     padding: 14
