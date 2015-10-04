@@ -65,23 +65,29 @@ var cy = cytoscape({
   
   elements: {
     nodes: [
-      { data: { id: 'cat' } },
-      { data: { id: 'bird' } },
-      { data: { id: 'ladybug' } },
-      { data: { id: 'aphid' } },
-      { data: { id: 'rose' } },
-      { data: { id: 'grasshopper' } },
-      { data: { id: 'plant' } },
-      { data: { id: 'wheat' } }
+      { data: { id: 'InitialTask_i1' } },
+      { data: { id: 'InitialTask_i2' } },
+      { data: { id: 'InitialTask_i3' } },
+      { data: { id: 'InitialTask_i4' } },
+      { data: { id: 'lu0_0_0_i1' } },
+      { data: { id: 'fwd_0_1_i1' } },
+      { data: { id: 'bdiv_2_0_i1' } },
+      { data: { id: 'bdiv_1_0_i2' } },
+      { data: { id: 'bmod_1_1_i1' } },
+      { data: { id: 'lu0_1_1_i2' } },
+      { data: { id: 'bmod_2_1_i2' } },
+      { data: { id: 'bdiv_2_1_i2' } },
+      { data: { id: 'InitialTask_i5' } },
+      { data: { id: 'fwd_0_2_i2' } },
+      { data: { id: 'bmod_2_2_i3' } },
+      { data: { id: 'bmod_1_2_i4' } },
+      { data: { id: 'fwd_1_2_i3' } },
+      { data: { id: 'bmod_2_2_i5' } },
+      { data: { id: 'lu0_2_2_i3' } }
     ],
     edges: [
-      { data: { source: 'cat', target: 'bird' } },
-      { data: { source: 'bird', target: 'ladybug' } },
-      { data: { source: 'bird', target: 'grasshopper' } },
-      { data: { source: 'grasshopper', target: 'plant' } },
-      { data: { source: 'grasshopper', target: 'wheat' } },
-      { data: { source: 'ladybug', target: 'aphid' } },
-      { data: { source: 'aphid', target: 'rose' } }
+      { data: { source: 'InitiaTask_i4', target: 'lu0_0_0_i1' } },
+      { data: { source: 'lu0_0_0_i1', target: 'fwd_0_1_i1' } }
     ]
   },
   
