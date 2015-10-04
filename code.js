@@ -103,19 +103,6 @@ cy.on('tap', 'node', function(){
   
   nodes.addClass('eater');
   
-  for(;;){
-    var connectedEdges = nodes.connectedEdges(function(){
-      return !this.target().anySame( nodes );
-    });
-    
-    var connectedNodes = connectedEdges.targets();
-    
-    Array.prototype.push.apply( food, connectedNodes );
-    
-    nodes = connectedNodes;
-    
-    if( nodes.empty() ){ break; }
-  }
 
 }); // on tap
 
