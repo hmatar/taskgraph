@@ -12,6 +12,7 @@ var cy = cytoscape({
         'width': 120,
         'content': 'data(name)',
         'text-valign': 'center',
+		'text-halign': 'center',
         'color': 'white',
         'text-outline-width': 2,
         'text-outline-color': '#888'
@@ -86,7 +87,8 @@ var cy = cytoscape({
   
   layout: {
     name: 'breadthfirst',
-    directed: true,
+    layout: 'cose',
+	directed: true,
     padding: 10
   }
 }); // cy init
