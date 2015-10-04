@@ -86,7 +86,7 @@ var cy = cytoscape({
       { data: { id: 'lu0_2_2_i3', name: 'lu0_2_2_i3' } }
     ],
     edges: [
-      { data: { source: 'InitiaTask_i4', target: 'lu0_0_0_i1' } },
+      { data: { source: 'InitialTask_i4', target: 'lu0_0_0_i1' } },
       { data: { source: 'lu0_0_0_i1', target: 'fwd_0_1_i1' } }
     ]
   },
