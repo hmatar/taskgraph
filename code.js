@@ -90,7 +90,6 @@ var cy = cytoscape({
     edges: [
       { data: { source: 'InitialTask_i4', target: 'lu0_0_0_i1', label: 'bmod_0xa24a60 : 0' } },
       { data: { source: 'lu0_0_0_i1', target: 'fwd_0_1_i1', label: 'lu_0xa249e0 : 0' } },
-      { data: { source: 'lu0_0_0_i1', target: 'fwd_0_1_i1', label: '0xa249e0 : 0' } },
 	  { data: { source: 'InitialTask_i2', target: 'fwd_0_1_i1', label: 'bmod_0xa24a64 : 1' } },
 	  { data: { source: 'lu0_0_0_i1', target: 'bdiv_2_0_i1', label: 'lu_0xa249e0 : 0' } },
 	  { data: { source: 'InitialTask_i3', target: 'bdiv_2_0_i1', label: 'bmod_0xa24aa0 : 6' } },
