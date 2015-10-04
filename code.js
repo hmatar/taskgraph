@@ -86,12 +86,13 @@ var cy = cytoscape({
   },
   
   layout: {
+    name: 'breadthfirst',
     name: 'cose',
 	directed: true,
-    padding: 10
+    padding: 14
   }
 }); // cy init
- // name: 'breadthfirst', 
+  
 cy.on('tap', 'node', function(){
   var nodes = this;
   var tapped = nodes;
