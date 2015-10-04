@@ -30,7 +30,7 @@ var cy = cytoscape({
     .selector('edge')
       .css({
         'width': 5,
-		'font-size': '7px',
+		//'font-size': '7px',
         'target-arrow-shape': 'triangle',
         'line-color': '#86B342',
         'target-arrow-color': '#86B342',
