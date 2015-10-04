@@ -30,6 +30,7 @@ var cy = cytoscape({
         'target-arrow-shape': 'triangle',
         'line-color': '#ffaaaa',
         'target-arrow-color': '#ffaaaa'
+		'content': 'data(label)'
       })
     .selector('#bird')
       .css({
