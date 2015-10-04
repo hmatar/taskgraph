@@ -115,11 +115,7 @@ cy.on('tap', 'node', function(){
     
     if( nodes.empty() ){ break; }
   }
-        
-  var delay = 0;
-  var duration = 500;
-  )(); } // for
-  
+
 }); // on tap
 
 }); // on dom ready
