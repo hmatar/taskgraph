@@ -118,31 +118,7 @@ cy.on('tap', 'node', function(){
         
   var delay = 0;
   var duration = 500;
-  for( var i = food.length - 1; i >= 0; i-- ){ (function(){
-    var thisFood = food[i];
-    var eater = thisFood.connectedEdges(function(){
-      return this.target().same(thisFood);
-    }).source();
-            
-    thisFood.delay( delay, function(){
-      eater.addClass('eating');
-    } ).animate({
-      position: eater.position(),
-      css: {
-        'width': 10,
-        'height': 10,
-        'border-width': 0,
-        'opacity': 0
-      }
-    }, {
-      duration: duration,
-      complete: function(){
-        //thisFood.remove();
-      }
-    });
-    
-    delay += duration;
-  })(); } // for
+  )(); } // for
   
 }); // on tap
 
