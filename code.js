@@ -16,7 +16,8 @@ var cy = cytoscape({
 		'text-halign': 'center',
         'color': 'white',
         'text-outline-width': 2,
-        'text-outline-color': '#888'
+        'text-outline-color': '#888',
+		'edge-text-rotation': 'autorotate'
       })
     .selector('.eating')
       .css({
@@ -33,8 +34,7 @@ var cy = cytoscape({
         'line-color': '#86B342',
         'target-arrow-color': '#86B342',
 		'content': 'data(label)',
-		'text-background-color': '#f7f7f7',
-		'text-shadow-color': '#86B342'
+		'edge-text-rotation': 'autorotate'
       }),
   
   elements: {
