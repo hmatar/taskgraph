@@ -10,6 +10,7 @@ var cy = cytoscape({
       .css({
         'height': 80,
         'width': 80,
+        'background-color': 'black',
         'background-fit': 'cover',
         'border-color': '#000',
         'border-width': 3,
